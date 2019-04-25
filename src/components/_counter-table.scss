@@ -1,0 +1,33 @@
+.counter-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    tbody{
+        tr{
+            td{
+                position: relative;
+                padding: 10px;
+                h3{
+                    margin-bottom: 5px;
+                }
+                &:first-child{
+                    padding-left: 15px;
+                }
+                &:last-child{
+                    padding-right: 0;
+                }
+            }
+        }
+    }
+}
+.counter-table_secondary{
+    tbody{
+        tr{
+            td{
+                &:first-child{
+                    padding-left: 0;
+                }
+            }
+        }
+    }
+}

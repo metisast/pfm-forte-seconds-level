@@ -1,0 +1,95 @@
+extends base
+block title
+    title Pages
+block main
+    .container-fluid
+        .row
+            .col-12.text-center
+                .title
+                    h1 Развлечения
+                .sub-title
+                    .calendar#datapicker
+                        img(src='./images/calendar.svg' width='20px')
+                        h3
+            .col-12
+                ul.counter-list
+                    li
+                        a(href='')
+                            .row.no-gutters
+                                .col-8
+                                    .color-bar
+                                        .color-bar-status.bgc-blue(style="width:60%")
+                                        h4 Кинотеатры
+                                .col-4
+                                    .counter.pl-1.text-right
+                                        h3 230 000 ₸
+                                        small 60%
+                    li
+                        a(href='')
+                            .row.no-gutters
+                                .col-8
+                                    .color-bar
+                                        .color-bar-status.bgc-magenta(style="width:20%")
+                                        h4 Активный отдых
+                                .col-4
+                                    .counter.pl-1.text-right
+                                        h3 100 000 ₸
+                                        small 20%
+                    li
+                        a(href='')
+                            .row.no-gutters
+                                .col-8
+                                    .color-bar
+                                        .color-bar-status.bgc-magenta-secondary(style="width:10%")
+                                        h4 Бары, клубы
+                                .col-4
+                                    .counter.pl-1.text-right
+                                        h3 15 000 ₸
+                                        small 10%  
+                    li
+                        a(href='')
+                            .row.no-gutters
+                                .col-8
+                                    .color-bar
+                                        .color-bar-status.bgc-purple-deep(style="width:10%")
+                                        h4 Прочее
+                                .col-4
+                                    .counter.pl-1.text-right
+                                        h3 15 000 ₸
+                                        small 10%
+            .col-12.text-center
+                .sub-title
+                    h3 Всего за выбранный период
+                    h3 360 000 
+                        span ₸    
+            .col-12
+                table.counter-table
+                    tbody
+                        tr
+                            td
+                                .color-bar-status.color-bar-status_secondary.bgc-purple-deep(style="width:5px")
+                                .counter
+                                    h3 Chaplin Mega Park
+                                    small 22 Ноября 2018
+                            td.text-right
+                                .counter
+                                    h3 100 000 ₸
+                        tr
+                            td
+                                .color-bar-status.color-bar-status_secondary.bgc-blue(style="width:5px")
+                                .counter
+                                    h3 Dostyk
+                                    small 2 Ноября 2018
+                            td.text-right
+                                .counter
+                                    h3 10 000 ₸      
+                        tr
+                            td
+                                .color-bar-status.color-bar-status_secondary.bgc-magenta-secondary(style="width:5px")
+                                .counter
+                                    h3 ADK
+                                    small 31 Декабря 2018
+                            td.text-right
+                                .counter
+                                    h3 132 000 ₸                  
+

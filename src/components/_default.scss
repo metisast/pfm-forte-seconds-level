@@ -1,0 +1,45 @@
+@include font-face($regular, './fonts/Cignika-Regular', 'Cignika-Regular');
+@include font-face($semi-bold, './fonts/Cignika-Semibold', 'Cignika-Semibold');
+@include font-face($bold, './fonts/Cignika-Bold', 'Cignika-Bold');
+@include font-face($light, './fonts/Cignika-Light', 'Cignika-Light');
+
+body{
+    font-family: $regular;
+    background-image: url('./images/bg_pattern.jpg');
+    line-height: 1;
+    font-size: 15px;
+    color: $color-black;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-top: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+h1{
+    color: $color-magenta;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 20px;
+}
+h4{
+    font-size: 16px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+i, small{
+    font-family: $light;
+}
+small{
+    font-size: 14px;
+}
+p, span{
+    font-family: $regular;
+}

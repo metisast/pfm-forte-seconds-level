@@ -1,0 +1,13 @@
+.color-bar{
+    position: relative;
+    padding: 12px;
+    background-color: rgba(92, 122, 130, .6);
+    border-radius: 5px;
+    overflow: hidden;
+    color: $color-white;
+    h3, h4, p{
+        margin-bottom: 0;
+        position: relative;
+        z-index: 2;
+    }
+}
